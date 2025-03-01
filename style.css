@@ -1,0 +1,49 @@
+/* Set the background image */
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/020/030/860/original/vnr-letter-logo-design-on-white-background-vnr-creative-circle-letter-logo-concept-vnr-letter-design-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Set the navbar background color */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+/* Adjust the container padding */
+.container {
+    padding-top: 50px;
+}
+
+/* Modify text color for contrast */
+h1, p {
+    color: #e41453;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: right;
+}
+
+/* Modal styles */
+.modal-content {
+    background-color: rgba(129, 28, 107, 0.9);  /* Slightly transparent background for modals */
+}
+
+.modal-header, .modal-footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.modal-body {
+    font-size: 14px;
+}
+
+form .mb-3 {
+    margin-bottom: 15px;
+}
+
+.modal-footer {
+    justify-content: space-between;
+}
